@@ -5,21 +5,21 @@
 class Gosemver < Formula
   desc "A command-line utility and a library for validating, comparing, and manipulating semantic versions, fully adhering to the Semantic Versioning 2.0.0 specification."
   homepage "https://github.com/andreygrechin/gosemver"
-  version "0.3.0-beta1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0-beta1/gosemver_darwin_x86_64.tar.gz"
-      sha256 "e9fc0eff584129a2e8eb279ae8ba9aee40dfc6f1e9817547fc37c010a1cdd9ea"
+      url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0/gosemver_darwin_x86_64.tar.gz"
+      sha256 "14aa81f70bd8801d9a59a46b514db4164196ec946e11713df6716951c8753467"
 
       def install
         bin.install "gosemver"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0-beta1/gosemver_darwin_arm64.tar.gz"
-      sha256 "055b9f6a9bad7278841ad2e56121eb2ed4c69c1b54d57cb09026915f1b324ba8"
+      url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0/gosemver_darwin_arm64.tar.gz"
+      sha256 "4c115d352512a85956dbcf19a686e8f5bfa4bddd833b00c0c8278beba6d0fbf0"
 
       def install
         bin.install "gosemver"
@@ -30,8 +30,8 @@ class Gosemver < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0-beta1/gosemver_linux_x86_64.tar.gz"
-        sha256 "de2f0d4f907073072325808447e912ca97d0a96cb8d504f71309b81839c7f7ba"
+        url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0/gosemver_linux_x86_64.tar.gz"
+        sha256 "04b220e9391c26b484baf12353a765ef6be01587f0d16b558c0633515e9f9ddc"
 
         def install
           bin.install "gosemver"
@@ -40,8 +40,8 @@ class Gosemver < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0-beta1/gosemver_linux_arm64.tar.gz"
-        sha256 "807780b465e03204cb9dec7bc41e1c93a2ab02ce9e05220372288b368b821e5a"
+        url "https://github.com/andreygrechin/gosemver/releases/download/v0.3.0/gosemver_linux_arm64.tar.gz"
+        sha256 "b03bd1a834a70b6ead7b6b07977c56611770d03f8f4509561a91b92eef566b62"
 
         def install
           bin.install "gosemver"
