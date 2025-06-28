@@ -1,3 +1,3 @@
 # homebrew-tap
 
-Homebrew Formulae for `github.com/andreygrechin` binaries.
+Homebrew Formulas for `github.com/andreygrechin` binaries.
