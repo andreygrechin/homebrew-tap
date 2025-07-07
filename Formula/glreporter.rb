@@ -4,21 +4,21 @@
 class Glreporter < Formula
   desc "CLI tool for validating, comparing, and manipulating semantic versions"
   homepage "https://github.com/andreygrechin/glreporter"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/andreygrechin/glreporter/releases/download/v0.2.0/glreporter_0.2.0_darwin_x86_64.tar.gz"
-      sha256 "8a700f17dd65dda1904acca5c4c9c21bb9293c6336f1b6be380eb0d41834272f"
+      url "https://github.com/andreygrechin/glreporter/releases/download/v0.3.0/glreporter_0.3.0_darwin_x86_64.tar.gz"
+      sha256 "d1ef6e4979ffe3092c4c30998690070c21ae94bd40bb678834a4e0d8d3ee3f4c"
 
       def install
         bin.install "glreporter"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/andreygrechin/glreporter/releases/download/v0.2.0/glreporter_0.2.0_darwin_arm64.tar.gz"
-      sha256 "b445e90d9c0f5a6f0af61b566523f0691e97e7228093a559414556a43e5023db"
+      url "https://github.com/andreygrechin/glreporter/releases/download/v0.3.0/glreporter_0.3.0_darwin_arm64.tar.gz"
+      sha256 "d315d73165540b22803c09b9b4610a23044019b8af421cd93cf86bd99fa2ec8a"
 
       def install
         bin.install "glreporter"
@@ -28,8 +28,8 @@ class Glreporter < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/andreygrechin/glreporter/releases/download/v0.2.0/glreporter_0.2.0_linux_x86_64.tar.gz"
-      sha256 "5130ea5ff9647d73441f688e29b1fa696a3dfce54241932d6903cb00c4fae4d0"
+      url "https://github.com/andreygrechin/glreporter/releases/download/v0.3.0/glreporter_0.3.0_linux_x86_64.tar.gz"
+      sha256 "a6c0fb2dd844afe5002e498c8c8932e182ce4b8839bf95f66a5f1f6fee10cbe4"
 
       def install
         bin.install "glreporter"
