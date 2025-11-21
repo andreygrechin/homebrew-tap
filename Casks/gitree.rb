@@ -9,7 +9,7 @@ cask "gitree" do
     skip "Auto-generated on release."
   end
 
-  binary "gitree"
+  binary "cmd/gitree"
 
   on_macos do
     on_intel do
