@@ -3,7 +3,7 @@ cask "gitree" do
   name "gitree"
   desc "A CLI tool that scans directories for Git repos and displays them in a tree format with status information."
   homepage "https://github.com/andreygrechin/gitree"
-  version "0.4.3"
+  version "0.5.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,18 +14,18 @@ cask "gitree" do
   on_macos do
     on_intel do
       url "https://github.com/andreygrechin/gitree/releases/download/v#{version}/gitree_#{version}_darwin_x86_64.tar.gz"
-      sha256 "361dd5868aa6896781a91b140a5124ba4faf78ed7601c86110a0015020306d2b"
+      sha256 "c343ed81d059e7fa35e0b46ab17d8799f1b924f31a7b1c26ee9261b79d3aa556"
     end
     on_arm do
       url "https://github.com/andreygrechin/gitree/releases/download/v#{version}/gitree_#{version}_darwin_arm64.tar.gz"
-      sha256 "75dcf99de2e99be8c3b1a50a55e4e8711821b9704b9f95b971a6a957762eaf17"
+      sha256 "e1527be00b5109c31efbb0bc6bd88657745648a83391d720bdca8defc59ca833"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andreygrechin/gitree/releases/download/v#{version}/gitree_#{version}_linux_x86_64.tar.gz"
-      sha256 "5addd82e90d21c41ddd4211c181d044c0aebfd67149cc9e6dce67ed8097fc39d"
+      sha256 "adb09547a854591cf6c470b1cb7316257449f4db4222f073687eefe110e1c9ba"
     end
   end
 
