@@ -14,18 +14,18 @@ cask "gitree" do
   on_macos do
     on_intel do
       url "https://github.com/andreygrechin/gitree/releases/download/v#{version}/gitree_#{version}_darwin_x86_64.tar.gz"
-      sha256 "c343ed81d059e7fa35e0b46ab17d8799f1b924f31a7b1c26ee9261b79d3aa556"
+      sha256 "632ec9bcfc9e122174b14e8decf98bc50ce7f2a55d962ff3d8f49ed3a3a52d1d"
     end
     on_arm do
       url "https://github.com/andreygrechin/gitree/releases/download/v#{version}/gitree_#{version}_darwin_arm64.tar.gz"
-      sha256 "e1527be00b5109c31efbb0bc6bd88657745648a83391d720bdca8defc59ca833"
+      sha256 "90fa673ec71c711783dd5c87b2d93adf85cc3a7e57f68234abf4e2d9c75d77d3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andreygrechin/gitree/releases/download/v#{version}/gitree_#{version}_linux_x86_64.tar.gz"
-      sha256 "adb09547a854591cf6c470b1cb7316257449f4db4222f073687eefe110e1c9ba"
+      sha256 "d42812aa017f1688fa1888150cb4d644b9d6aa5095fd479392d9a35aab2f4da0"
     end
   end
 
