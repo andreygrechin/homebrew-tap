@@ -1,3 +1,3 @@
 # homebrew-tap
 
-Homebrew Formulas for `github.com/andreygrechin` binaries.
+Homebrew Formulas and Casks for `github.com/agrechin` binaries.
