@@ -5,28 +5,28 @@ cask "freda" do
   on_macos do
     on_intel do
       sha256 "3308e0c954f53dd894e01a9b88aa924553ceae655d15e83b53711010784fe2eb"
-      url "https://github.com/agrechin/freda/releases/download/v#{version}/freda_#{version}_darwin_amd64.tar.gz"
+      url "https://github.com/agrechin/freda-releases/releases/download/v#{version}/freda_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
       sha256 "48ae40c97bea8a6ff8709864c58e1908feef7c6acf1b04c29bfe1525e45c9082"
-      url "https://github.com/agrechin/freda/releases/download/v#{version}/freda_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/agrechin/freda-releases/releases/download/v#{version}/freda_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
       sha256 "572b3714766762a9cd839cf792619c0b88e7bb16d96b4bb2431195df666690a1"
-      url "https://github.com/agrechin/freda/releases/download/v#{version}/freda_#{version}_linux_amd64.tar.gz"
+      url "https://github.com/agrechin/freda-releases/releases/download/v#{version}/freda_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
       sha256 "37f0492b70b760d347d2780d801f8dac9f8986001aec89c1e6e88267bfcc7fc9"
-      url "https://github.com/agrechin/freda/releases/download/v#{version}/freda_#{version}_linux_arm64.tar.gz"
+      url "https://github.com/agrechin/freda-releases/releases/download/v#{version}/freda_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "freda"
   desc "Archive Fireflies.ai meeting transcripts to Google Cloud Storage as Markdown."
-  homepage "https://github.com/agrechin/freda"
+  homepage "https://github.com/agrechin/freda-releases"
 
   livecheck do
     skip "Auto-generated on release."
